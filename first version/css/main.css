@@ -1,0 +1,9 @@
+#column-1 {
+  background: url("ocean.jpg");
+  width: "50%";
+}
+
+#column-2 {
+  width: "50%";
+  background: #cad2c5;
+}

@@ -1,0 +1,195 @@
+body {
+  font-family: 'Hind', sans-serif;
+  margin: 0 auto;
+}
+
+/* grid */
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  text-align: center;
+  float: left;
+}
+
+/* header section */
+
+header {
+  background: url("../img/forest_croppedv2.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+nav {
+  margin-right: 125px;
+  float:right;
+  padding-top: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+h1 {
+  font-family: 'Ribeye Marrow', cursive;
+  text-align: left;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-top: 40px;
+  color: #86b938;
+  text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+  font-family: 'Hind', sans-serif;
+  color: darkslategrey;
+  padding-left: 50px;
+  line-height: 40px;
+}
+
+h3 {
+  clear: both;
+  font-family: 'Boogaloo', cursive;
+  font-size: 25px;
+  padding: 40px 0px 0px 60px;
+}
+
+h4 {
+  font-family: font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 22px;
+  color: black;
+}
+
+p {
+  font-family: 'Alike', serif;
+  font-size: 18px;
+  color: white;
+  padding: 5px 0px 0px 60px;
+  text-align: left;
+  line-height: 30px;
+}
+
+iframe {
+  border: 0px;
+  align: center;
+}
+
+#about p {
+  font-family: 'Alike', serif;
+  font-size: 18px;
+  color: white;
+  padding: 0px 0px 0px 60px;
+  text-align: left;
+}
+
+#about {
+  background: #466365;
+  height: 425px;
+  margin-top: -25px;
+}
+
+#about img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 0px 0px 0px 0px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px 25px 10px;
+}
+
+/* skills and work sections */
+
+#skills {
+  background: #86b938;
+  height: 500px;
+  margin: -25px 0px -25px 0px;
+}
+
+#skills h3 {
+  padding-bottom: 25px;
+}
+
+#work {
+  background: #466365;
+  height: 900px;
+}
+
+#work a:visited {
+  color: #86b938;
+}
+
+#work a:link {
+    color: #86b938;
+}
+
+#work p {
+  padding: 0px 10px;
+}
+
+/* contact section */
+
+#contact {
+  background: #86b938;
+  height: 300px;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+  margin-top: -25px;
+}
+
+#contact h3 {
+  text-align: left;
+  padding-bottom: 25px;
+
+}
+
+#contact img {
+  width: 50px;
+  align-items: center;
+}
+
+#contact ul li{
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+#contact ul li a {
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+#contact a:visited {
+  color: black;
+}
+
+#contact a:link {
+    color: black;
+}
+
+#contact h2 {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  color: black;
+  font-size: 20px;
+  line-height: 25px;
+}

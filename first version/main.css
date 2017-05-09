@@ -1,0 +1,46 @@
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60pt;
+  color: #f18f01;
+  text-align: left;
+  padding: 20px 0px 0px 50px;
+}
+
+h4 {
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  font-size: 28px;
+  padding 25px 0px 25px 0px;
+}
+
+p {
+  font-family: 'Hind', sans-serif;
+  font-size: 28px;
+  color: white;
+  text-align:left;
+  padding: 0px 0px 0px 50px;
+}
+
+#main-page {
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#column-1 {
+  background: url("ocean_fixed.png");
+  float: left;
+  height: 100%;
+  width: 50%;
+
+
+}
+
+#column-2 {
+  width: 50%;
+  height: 100%;
+  background: #cad2c5;
+  float: left;
+
+
+}

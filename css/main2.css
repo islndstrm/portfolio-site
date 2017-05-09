@@ -1,0 +1,184 @@
+body {
+  font-family: 'Hind', sans-serif;
+  width: 1200px;
+
+}
+
+/* grid */
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+
+}
+
+.third-width {
+  width: 400px;
+  align: center;
+  float: left;
+  text-align: center;
+}
+
+/* header section */
+
+header {
+  background: url("../img/coffee_croppedv2.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+nav {
+  margin-right: 125px;
+  float:right;
+  padding-top: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    color: #eaeff3;
+}
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 100px;
+    color: #eaeff3;
+}
+
+h1 {
+  font-family: 'Ribeye Marrow', cursive;
+  text-align: left;
+  font-size: 45px;
+  padding-left: 50px;
+  padding-top: 5px;
+  color: #eaeff3;
+  text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+  font-family: 'Hind', sans-serif;
+  color: #eaeff3;
+  padding-left: 50px;
+  line-height: 30px;
+  margin-top: -15px;
+  text-shadow: 1px 1px 3px black;
+}
+
+h3 {
+  clear: both;
+  font-family: 'Boogaloo', cursive;
+  font-size: 25px;
+  padding: 40px 0px 0px 60px;
+}
+
+h4 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Alike', serif;
+  font-size: 18px;
+  color: #4281A4;
+  padding: 25px 0px 0px 60px;
+  text-align: left;
+}
+
+#about p {
+  font-family: 'Alike', serif;
+  font-size: 18px;
+  color: #465362;
+  padding: 0px 0px 0px 60px;
+  text-align: left;
+}
+
+#about {
+  background: #ddcbbd;
+  height: 400px;
+  margin-top: -25px;
+}
+
+#about img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 0px 0px 0px 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    /* width: 90%; */
+    padding: 5px 0px 25px 0px;
+}
+
+/* skills and work sections */
+
+#skills {
+  background: #82A3A1;
+  height: 365px;
+  margin: -25px 0px -25px 0px;
+}
+
+#skills h3 {
+  padding-bottom: 25px;
+}
+
+#work {
+  background: #466365;
+  height: 800px;
+}
+
+/* contact section */
+
+#contact {
+  background: #86b938;
+  height: 300px;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+  margin-top: -25px;
+}
+
+#contact h3 {
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+#contact img {
+  width: 50px;
+  align-items: center;
+}
+
+#contact ul li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+#contact ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+#contact a:visited {
+  color: black;
+}
+
+#contact a:link {
+    color: black;
+}
+
+#contact h2 {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  color: #lightslategray;
+  font-size: 20px;
+  line-height: 25px;
+}
